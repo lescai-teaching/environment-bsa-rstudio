@@ -11,6 +11,7 @@ In order to run this, please make sure:
 Now you're all set and can use the following button to launch the service.
 
 The user and password for RStudio on gitpod is:
-gitpod/pass
+username = gitpod
+password = rstudio
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lescai-teaching/environment-bsa-rstudio)
