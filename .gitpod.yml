@@ -7,6 +7,6 @@ ports:
     onOpen: open-browser
 
 tasks:
-  #- init: |
-  #    sudo rstudio-server start
+  - init: |
+      sudo rstudio-server start
   - command: sleep 5000
