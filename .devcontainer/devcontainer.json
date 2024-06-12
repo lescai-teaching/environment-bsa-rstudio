@@ -8,6 +8,9 @@
 	"portsAttributes": {
 		"8888": {
 			"label": "Jupyter"
+		},
+		"8787": {
+		        "label": "Rstudio"
 		}
 	},
 
