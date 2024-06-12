@@ -8,5 +8,6 @@ ports:
 
 tasks:
   - init: |
+      export DISABLE_AUTH=true
       sudo rstudio-server start
   - command: sleep 5000
