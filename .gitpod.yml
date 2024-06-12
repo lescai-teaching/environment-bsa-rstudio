@@ -1,4 +1,4 @@
-image: ghcr.io/lescai-teaching/rstudio-bio-gitpod:latest
+image: ghcr.io/lescai-teaching/rstudio-bio-jupyter:latest
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
@@ -7,6 +7,6 @@ ports:
     onOpen: open-browser
 
 tasks:
-  - init: |
-      sudo rstudio-server start
+  #- init: |
+  #    sudo rstudio-server start
   - command: sleep 5000
