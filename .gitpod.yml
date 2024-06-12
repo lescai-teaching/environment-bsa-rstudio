@@ -9,9 +9,6 @@ ports:
 tasks:
   - init: |
       sudo rstudio-server start
-  - name: fix path update
-    command: |
-        export PATH="/usr/local/bin:$PATH"
-  - name: set sleep timer
-    command: |
+  - command: |
+        export PATH="$PATH:/usr/local/bin"
         sleep 5000
