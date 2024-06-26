@@ -24,8 +24,8 @@
 			]
 		}
 	},
-	"remoteEnv": {
-                 "PATH": "${containerEnv:PATH}:/usr/local/bin"
-         },
-	"postStartCommand": "sudo rstudio-server start && jupyter lab --ip 0.0.0.0 --no-browser --NotebookApp.token='' --NotebookApp.password=''"
+//	"remoteEnv": {
+//                 "PATH": "${containerEnv:PATH}:/usr/local/bin"
+//         },
+	"postStartCommand": "export PATH='$PATH:/usr/local/bin' && cd && source .bashrc && sudo rstudio-server start && jupyter lab --ip 0.0.0.0 --no-browser --NotebookApp.token='' --NotebookApp.password=''"
 }
