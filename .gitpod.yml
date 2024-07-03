@@ -9,6 +9,7 @@ ports:
 tasks:
   - init: |
       export PATH="$PATH:/usr/local/bin"
+      touch ~/.Renviron | R_PATH="PATH=$PATH" | echo $R_PATH >  ~/.Renviron
       sudo rstudio-server start
   - command: |
         cd
