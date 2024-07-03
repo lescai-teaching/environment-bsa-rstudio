@@ -8,9 +8,9 @@ ports:
 
 tasks:
   - init: |
+      export PATH="$PATH:/usr/local/bin"
       sudo rstudio-server start
   - command: |
-        export PATH="$PATH:/usr/local/bin"
         cd
         source .bashrc
         sleep 5000
