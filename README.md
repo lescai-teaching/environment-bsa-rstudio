@@ -25,7 +25,7 @@ Once the space has been created, to make it work properly you should:
 
 And you're done! A JupyterLab interface should open soon, from which you'll be able to click on the `RStudio` icon and start working with RStudio😁. See the video down here:
 
-![Open with JupyterLab](./imgs/open_jupyterlab.gif)
+![Open with JupyterLab](./imgs/open_jupyterlab1.gif)
 
 
 ## GitPod Workspaces
