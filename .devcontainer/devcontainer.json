@@ -27,5 +27,5 @@
 	"remoteEnv": {
                  "PATH": "${containerEnv:PATH}:/usr/local/bin"
          },
-	"postStartCommand": "sudo rstudio-server start && jupyter lab --ip 0.0.0.0 --no-browser --NotebookApp.token='' --NotebookApp.password=''"
+	"postStartCommand": "bash .devcontainer/start-services.sh"
 }
